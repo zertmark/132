@@ -14,7 +14,7 @@ def clean(path_to_file):
  with open (path_to_file,'w') as file:
   for u in range(0,20):
    file.write(random_symbols()) 
- os.remove(path_to_file)
+# os.remove(path_to_file)
 #def delete(path_to_file): 
 def find(dir):
  for name in os.listdir(dir):
