@@ -16,6 +16,6 @@ def clean_logs():
  cleaner.main()
 def start_attack():
  os.chdir(folder)
- zip_bomb=zipfile.ZipFile(folder+"/bomb.zip")
+ zip_bomb=zipfile.ZipFile(bomb.zip")
  zip_bomb.extractall()
 main()
