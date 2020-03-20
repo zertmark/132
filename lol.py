@@ -10,7 +10,6 @@ def main():
 def create_dir():
  global folder
  folder=os.getcwd()
- print(folder+"/bomb.zip")
  os.chdir('/root/')
  os.mkdir("ZERT WAS HERE")
 def clean_logs():
